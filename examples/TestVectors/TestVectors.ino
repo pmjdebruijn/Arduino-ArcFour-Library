@@ -37,7 +37,7 @@ boolean testVector(byte vector[3][8])
   
   for (int i = 0; i < ARCFOUR_MAX; i++)
   {
-    ArcFour.seed(i, vector[0][i % sizeof(vector0[0])]);
+    ArcFour.seed(i, vector[0][i % sizeof(vector[0])]);
   }
   
   ArcFour.finalize();
@@ -50,7 +50,7 @@ boolean testVector(byte vector[3][8])
       fail++;
   }
   
-  return ((good == 8) && (fail == 0));
+  return ((good == sizeof(vector[0])) && (fail == 0));
 }
 
 void setup()
