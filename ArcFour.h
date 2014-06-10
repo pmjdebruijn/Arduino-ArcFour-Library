@@ -9,6 +9,8 @@
 #ifndef ArcFour_h
 #define ArcFour_h
 
+#include <inttypes.h>
+
 #define ARCFOUR_MAX 256
 
 class ArcFour
@@ -20,7 +22,7 @@ public:
   void initialize(void);
   void seed(uint8_t index, uint8_t key);
   void finalize(void);
-  byte random(void);
+  uint8_t random(void);
 private:
   void swap(uint8_t *a, uint8_t *b);
 };

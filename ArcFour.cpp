@@ -6,7 +6,6 @@
   
  */
 
-#include "Arduino.h"
 #include "ArcFour.h"
 
 void ArcFour::initialize(void)
@@ -33,7 +32,7 @@ void ArcFour::finalize(void)
   _j = 0;
 }
 
-byte ArcFour::random(void)
+uint8_t ArcFour::random(void)
 {
   _i = (_i + 1)      % sizeof(_s);
   _j = (_j + _s[_i]) % sizeof(_s);
