@@ -1,0 +1,7 @@
+Arduino-ArcFour-Library
+=======================
+
+A simple implementation of the RC4 ("ArcFour") stream cipher, as
+designed by Ronald Rivest (of RSA Security) in 1987, unofficially
+disclosed in 1994 on the CypherPunks mailing list. Includes some 
+of the test vectors generated in 1994 by Eric Rescorla.
