@@ -1,0 +1,24 @@
+#######################################
+# Syntax Coloring Map ArcFour
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ArcFour	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+initialize	KEYWORD2
+seed	KEYWORD2
+finialize	KEYWORD2
+random	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+ARCFOUR_MAX	LITERAL1
