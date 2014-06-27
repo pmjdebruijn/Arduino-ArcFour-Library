@@ -21,7 +21,7 @@ void setup()
     ; // wait for serial port to connect. Needed for Leonardo and Due
   }
   
-  Entropy.Initialize();
+  Entropy.initialize();
   
   ArcFour.initialize();
   
